@@ -23,7 +23,11 @@ Usage
 
 dynamic_heatmap.py contains the source code for calculating population growth rates of dynamic cell differentiation strategies.
 
-make_*.py are the values of parameters. The file generates a run.sh file, which is executed on cluster.
+make.py is the values of parameters. The file generates a run.sh file, which is executed on cluster.
+
+data_* stores the optimal dynamic cell differentiation strategy and its corresponding population growth rate under different parameter space.
+
+fig*.py are the python scripts that generate the figures in main text by reading the corresponding data in data folder.
 
 Requirement
 
